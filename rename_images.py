@@ -2,7 +2,7 @@ import os
 import re
 
 # Pfad anpassen
-folder = r"C:\Projects\werkstatt\img\all\original\regal-bad"
+folder = r"C:\Projects\werkstatt\img\all\original\garderobe"
 
 # Gültige Bild-Endungen
 valid_extensions = (".jpg", ".jpeg", ".png", ".heic")

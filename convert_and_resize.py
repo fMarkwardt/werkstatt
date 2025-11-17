@@ -3,8 +3,8 @@ import subprocess
 from PIL import Image
 
 # Deine Pfade
-input_dir = 'img/all/original/garderobe'
-output_dir = 'img/all/edited/garderobe'
+input_dir = 'img/all/original/waschbaerenbox'
+output_dir = 'img/all/edited/waschbaerenbox'
 max_size = (1600, 1600)
 
 # Ausgabeordner erstellen, falls nicht vorhanden

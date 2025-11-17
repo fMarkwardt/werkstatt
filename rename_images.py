@@ -2,7 +2,7 @@ import os
 import re
 
 # Pfad anpassen
-folder = r"C:\Projects\werkstatt\img\all\original\waschbaerenbox"
+folder = r"C:\Projects\werkstatt\projects\waschbaerenbox\img\todo"
 
 # Gültige Bild-Endungen
 valid_extensions = (".jpg", ".jpeg", ".png", ".heic")
@@ -19,7 +19,7 @@ images.sort(key=extract_number)  # numerisch aufsteigend sortieren
 # Umbenennen in 0.jpg, 1.jpg, 2.jpg ...
 for i, filename in enumerate(images):
     _, ext = os.path.splitext(filename)
-    new_name = f"{i}{ext.lower()}"
+    new_name = f"{i+14}{ext.lower()}"
     src = os.path.join(folder, filename)
     dst = os.path.join(folder, new_name)
 
